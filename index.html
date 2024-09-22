@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Background Removal</title>
+    <script
+      type="module"
+      crossorigin
+      src="./assets/assets_index-E_M5nW8h.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      crossorigin
+      href="./assets/assets_index-SojaDS6z.css"
+    />
+    <link rel="stylesheet" crossorigin href="./style.css" />
+  </head>
+
+  <body>
+    <h1 class="gradient-text">Removal Background</h1>
+    <div id="particles-js"></div>
+
+    <div class="image-con">
+      <!-- First image-content block -->
+      <div class="image-content">
+        <img class="image-icon" src="./image/upload.png" alt="upload" />
+        <span class="span-con">Upload</span>
+      </div>
+    
+      <!-- Arrow between first and second blocks -->
+      <img class="image-icon" src="./image/right-arrow.png" alt="right-arrow" />
+    
+      <!-- Second image-content block -->
+      <div class="image-content">
+        <img class="image-icon" src="./image/clock.png" alt="clock" />
+        <span class="span-con">10-Sec</span>
+      </div>
+    
+      <!-- Arrow between second and third blocks -->
+      <img class="image-icon" src="./image/right-arrow.png" alt="right-arrow" />
+    
+      <!-- Third image-content block -->
+      <div class="image-content">
+        <img class="image-icon" src="./image/photo.png" alt="photo" />
+        <span class="span-con">Download</span>
+      </div>
+    </div>
+
+    <div id="container">
+      <label id="upload-button" for="upload">
+        <svg
+          width="25"
+          height="25"
+          viewBox="0 0 25 25"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill="#000"
+            d="M3.5 24.3a3 3 0 0 1-1.9-.8c-.5-.5-.8-1.2-.8-1.9V2.9c0-.7.3-1.3.8-1.9.6-.5 1.2-.7 2-.7h18.6c.7 0 1.3.2 1.9.7.5.6.7 1.2.7 2v18.6c0 .7-.2 1.4-.7 1.9a3 3 0 0 1-2 .8H3.6Zm0-2.7h18.7V2.9H3.5v18.7Zm2.7-2.7h13.3c.3 0 .5 0 .6-.3v-.7l-3.7-5a.6.6 0 0 0-.6-.2c-.2 0-.4 0-.5.3l-3.5 4.6-2.4-3.3a.6.6 0 0 0-.6-.3c-.2 0-.4.1-.5.3l-2.7 3.6c-.1.2-.2.4 0 .7.1.2.3.3.6.3Z"
+          ></path>
+        </svg>
+        Click to upload image
+        <label id="example">(or try example)</label>
+      </label>
+    </div>
+    <label id="status"></label>
+    <input id="upload" type="file" accept="image/*" />
+    <button id="downloadBtn">Download Image</button>
+
+    <button id="refreshBtn">New Image</button>
+    <p class="order">innomedia - כל הזכויות שמורות ©</p>
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
+    <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
