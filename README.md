@@ -10,7 +10,7 @@ Supports a wide variety of image formats (e.g., JPG, PNG).
 Fast and accurate with high-quality output.
 Can be integrated into other projects or used as a standalone tool.
 Demo
-[https://antiquewhite-seahorse-986829.hostingersite.com/]
+[https://removebackgroundai.online/]
 
 
 
